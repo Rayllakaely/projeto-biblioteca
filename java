@@ -88,7 +88,43 @@ public livro(string titulo,string autor,int anopublicacao){
             import br.com.minhaclasse.contrato.itembiblioteca;
         public class ebook extends livro implements itembiblioteca{
             private string formato;
-            public ebook/string titulo,string autor,int anopublicacao,double tamanho,string formato){
+            public ebook(string titulo,string autor,int anopublicacao,double tamanho,string formato){
+                super(titulo,autor,anopublicacao);
+                this.formato=formato;
+            }
+            public void exibirdetalhes(){
+                system.out.println("ebook:"+gettitulo());
+            }
+        }
+        package br.com.minhaclasse.modelo;
+        import java.util.arraylist;
+        public class usuario{
+            public string nome;
+            public string idusuario;
+        public usuario(string nome, string id){
+            this.nome=nome;
+            this.idusuario=id;
+        }
+            package br.com.minhaclasse.servico;
+        import java.util.arraylist;
+        public classe biblioteca{
+            private string nome;
+         public biblioteca{
+             private string nome;
+         }
+        }
+        publick biblioteca(string nome){
+            import
+            br.com.minhaclasse.servico.biblioteca;
+        public class.main{
+            public static void main(string args){
+                biblioteca b=new
+                    biblioteca("biblioteca central");
+            }
+        }
+                
+                
+                
                 super(titulo,autor,anopublicacao);
                 this.formato=formato;
                     }
